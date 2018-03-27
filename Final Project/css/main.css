@@ -1,0 +1,125 @@
+/* Color Scheme
+
+Crimson Sky- #CF6766, rgb(207,103,102)
+Indigo- #30415D,rgb(48,65,93)
+Ultramarine- #031424
+Light Blue- #8EAEBD
+
+*/
+
+/*
+Fonts
+
+headers- Sacramento
+body- Roboto
+*/
+.logo{
+	font-family:'Sacramento', cursive;
+	color: rgb(255,255,255);
+}
+
+#mainNav{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+.container .content {
+	margin: 30px;
+	height: 200px;
+}
+
+
+.container .backgroundImg {
+	background:url(Final Project/images/large_group_photo.jpg);
+	background-color: rgb(48,65,93);
+	width: 100%;
+}
+
+.wrapper{
+	max-height: 100px;
+}
+
+.timeSOS{
+
+}
+
+.aboutSOS{
+
+}
+
+.whoHonorees{
+
+}
+
+.spaceRow{
+	height: 100px;
+}
+
+.whoHonorees .spaceRow{
+	height: 50px;
+}
+
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .03em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li{
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+	margin: 7px;
+	text-align: right;
+	font-size: 15px;
+	color: rgb(255,255,255);
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-family: 'Sacramento', cursive;
+	font-size: 60px; 
+	font-style: medium;
+	text-align: center;
+}
+
+.contactUs h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px; 
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
